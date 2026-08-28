@@ -15,7 +15,7 @@ export function Footer() {
 
           {/* Center / Registration */}
           <div className="text-muted/80">
-            <span>Registered in the United Kingdom</span>
+            <span>Registered in England and Wales</span>
           </div>
 
           {/* Right: Back to Top Link */}

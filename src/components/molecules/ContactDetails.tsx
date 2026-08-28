@@ -47,11 +47,11 @@ export function ContactDetails({ company }: ContactDetailsProps) {
         </div>
       </div>
 
-      {/* Direct Contact Inquiries */}
+      {/* Direct Contact Enquiries */}
       <div className="md:col-span-6 space-y-6">
         <div>
           <span className="font-mono text-xs text-muted uppercase tracking-wider block mb-1">
-            Direct Inquiries
+            Direct Enquiries
           </span>
           <a
             href={`mailto:${company.email}`}
@@ -75,7 +75,7 @@ export function ContactDetails({ company }: ContactDetailsProps) {
 
         <div className="pt-4">
           <span className="font-mono text-[11px] text-muted/80 tracking-wide uppercase block">
-            Incorporated in England and Wales · Registered in the United Kingdom
+            Registered in England and Wales
           </span>
         </div>
       </div>
